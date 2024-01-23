@@ -1,0 +1,430 @@
+﻿@model Subject
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.7.1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<div class="row">
+    <div class="col-sm-6 margincard position-absolute top-50 start-50 translate-middle">
+        <div class="card bg-transparent border-0">
+            <div class="card-body">
+                <fieldset class="centerform" style="--clr:#000FFE">
+                    <form method="post" asp-action="Add" asp-controller="Subject" id="subjectForm">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <label for="subject" class="headerformats">Subject Info</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row mb-2">
+                                <div class="col">
+                                    <div class="form-floating">
+                                        <input type="text" asp-for="SUBJCODE" class="form-control formatslabel" maxlength="15" required>
+                                        <label asp-for="SUBJCODE" for="subjectcode">Subject Code</label>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-floating">
+                                        <input type="text" asp-for="SUBJDESC" class="form-control formatslabel" maxlength="50" required>
+                                        <label asp-for="SUBJDESC" for="description"></label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row mb-2">
+                                <div class="col">
+                                    <div class="form-floating">
+                                        <input type="text" asp-for="SUBJUNITS" class="form-control formatslabel" maxlength="1" required>
+                                        <label asp-for="SUBJUNITS" for="units"></label>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-floating">
+                                        <input type="text" asp-for="SUBJCURRCODE" class="form-control formatslabel" required>
+                                        <label asp-for="SUBJCURRCODE" for="curcode">Curriculum Code</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row mb-2">
+                                <div class="col-4">
+                                    <div class="form-floating">
+                                        <input type="text" asp-for="SUBJCOURSECODE" class="form-control formatslabel" id="course" maxlength="10" required>
+                                        <label asp-for="SUBJCOURSECODE" for="course">Course</label>
+                                    </div>
+                                </div>
+                                <div class="col-3 mb-2">
+                                    <div class="form-floating">
+                                        <div class="btn-group mx-auto" style="width: 100%">
+                                            <button type="button" id="offeringddbtn" class="btn btn-secondary dropdown-toggle form-control" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                                                Offering
+                                            </button>
+                                            <ul class="dropdown-menu dropdown-menu-lg-end">
+                                                <li><button class="dropdown-item" type="button" onclick="selectedOffering('1')">1 - First Semester</button></li>
+                                                <li><button class="dropdown-item" type="button" onclick="selectedOffering('2')">2 - Second Semester</button></li>
+                                                <li><button class="dropdown-item" type="button" onclick="selectedOffering('3')">3 - Off Semester</button></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-1">
+                                    <a class="btn btn-sm btn-warning bubbles-sm" data-toggle="tooltip" title="Input of Semester Type" disabled>!</a>
+                                </div>
+                                <div class="col-4">
+                                    <div class="form-floating">
+                                        <div class="btn-group mx-auto" style="width: 100%">
+                                            <button type="button" id="categoryddbtn" class="btn btn-secondary dropdown-toggle form-control" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                                                Category
+                                            </button>
+                                            <ul class="dropdown-menu dropdown-menu-lg-end">
+                                                <li><button class="dropdown-item" type="button" onclick="selectedCategory('LEC')">LEC</button></li>
+                                                <li><button class="dropdown-item" type="button" onclick="selectedCategory('LAB')">LAB</button></li>
+                                                <li><button class="dropdown-item" type="button" onclick="selectedCategory('ALL')">ALL</button></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row ms-2 mb-3 mt-3">
+                                <div class="col">
+                                    <div class="form-check form-check-inline radiob">
+                                        <input class="form-check-input" type="radio" id="radioOption1" name="radBtnOptions" value="CO" asp-for="SUBJPREQ">
+                                        <label class="form-check-label" for="radioOption1">CO-REQUISITE</label>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-check form-check-inline radiob">
+                                        <input class="form-check-input" type="radio" id="radioOption2" name="radBtnOptions" value="PRE" asp-for="SUBJPREQ">
+                                        <label class="form-check-label" for="radioOption2">PRE-REQUISITE</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row mb-2">
+                                <div class="col-10">
+                                    <div class="form-floating mb-1">
+                                        <input type="text" class="form-control formatslabel" asp-for="SUBJCODEPREQ" maxlength="15" disabled>
+                                        <label for="requisite">Subject Code</label>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <a class="btn btn-lg btn-warning bubbles-sm" data-toggle="tooltip" title="If Subject is CO-REQUISITE you can set it to CO if PRE-REQUISITE please input existing subject for CO-REQUISITE" disabled>!</a>
+                                </div>
+                            </div>
+                        </div>
+                        <input type="text" asp-for="SUBJREGOFRNG" class="formatstext hidden" id="offering" maxlength="1">
+                        <input type="text" asp-for="SUBJCATEGORY" class="formatstext hidden" id="category" maxlength="3">
+                        <input type="text" asp-for="SUBJPREQ" id="selectedRequisite" class="formatstext hidden" name="SUBJPREQ" maxlength="3"> 
+                        <div class="container">
+                            <div class="row ms-1">
+                                <div class="col">
+                                    <div class="form-group text-center btn-container">
+                                        <input type="submit" class="btn btn-success" style="width: 100%" value="SAVE">
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-group text-center btn-container">
+                                        <input type="submit" class="btn btn-danger" style="width: 100%" id="cancelBtn" value="CANCEL">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+</div>
+<div>
+    <a asp-controller="Subject" asp-action="Index" class="btnback2"
+       type="submit" style="--clr:#000FFE">
+        <span>View</span><i></i>
+    </a>
+</div>
+<div>
+    <a asp-controller="Home" asp-action="Index" class="btnback" style="--clr:#FC43C5" onclick="optionSelected('bg')">
+        <span>Back</span><i></i>
+    </a>
+</div>
+
+<header>
+    <div class="logo">Subject</div>
+    <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <nav class="nav-bar mt-3">
+        <ul>
+            <li>
+                <a asp-controller="Student" asp-action="Add">Student</a>
+            <li>
+                <a asp-controller="Subject" asp-action="Add" class="active">Subject</a>
+            </li>
+            <li>
+                <a asp-controller="SubjectSched" asp-action="Add">Schedule</a>
+            </li>
+            <li>
+                <a asp-controller="Enrollment" asp-action="Add">Enrollment</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<script>
+    $(document).ready(function () {
+        // Function for radio button changes
+        $('input[name="radBtnOptions"]').on('change', function () {
+            if (this.value === 'PRE') {
+                // Enable the input when REQ is selected
+                $('#SUBJCODEPREQ').prop('disabled', false);
+                // Set the hidden input value to 'PRE'
+                $('#selectedRequisite').val('PRE');
+                $('#SUBJCODEPREQ').val('');
+
+            } else {
+                // Disable the input when CO is selected and set its value to "N.A."
+                $('#SUBJCODEPREQ').prop('disabled', true);
+                $('#SUBJCODEPREQ').val('N.A.');
+                // Set the hidden input value to 'PRE'
+                $('#selectedRequisite').val('CO');
+            }
+        });
+    });
+
+    // Function to clear input fields and reset dropdowns
+    function clearInputFields() {
+        $("input[name='SUBJCODE']").val('');
+        $("input[name='SUBJDESC']").val('');
+        $("input[name='SUBJUNITS']").val('');
+        $("input[name='SUBJREGOFRNG']").val('');
+        $("input[name='SUBJCATEGORY']").val('');
+        $("input[name='SUBJCOURSECODE']").val('');
+        $("input[name='SUBJCURRCODE']").val('');
+        $('input[name="radBtnOptions"]').prop('checked', false);
+        $("input[name='SUBJPREQ']").val('');
+        $("input[name='SUBJCODEPREQ']").val('');
+        $("#offeringddbtn").text("Offering"); // Reset the "Offering" dropdown
+        $("#courseddbtn").text("Course"); // Reset the "Course Code" dropdown
+        // Clear values of other input fields as needed
+    }
+
+    // Call the clearFormFields function when the page loads
+    window.onload = clearInputFields;
+
+    // Click event for the "CANCEL" button
+    $('#cancelBtn').click(function () {
+        clearInputFields();
+
+        // Prevent the form from submitting
+        return false;
+    });
+
+    $(document).ready(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+</script>
+
+@if (TempData.ContainsKey("FieldError"))
+{
+        <script>
+            var fieldError = '@TempData["FieldError"]';
+            Swal.fire({
+                icon: 'error',
+                title: 'Field Validation Entry Error',
+                text: fieldError,
+            });
+        </script>
+}
+
+@if (TempData.ContainsKey("DuplicateError"))
+{
+        <script>
+            var duplicateError = '@TempData["DuplicateError"]';
+            Swal.fire({
+                icon: 'error',
+                title: 'Duplicate Error',
+                text: duplicateError,
+            });
+        </script>
+}
+
+@if (TempData.ContainsKey("SuccessMessage"))
+{
+        <script>
+            var successMessage = '@TempData["SuccessMessage"]';
+            Swal.fire({
+                icon: 'success',
+                title: 'Success',
+                text: successMessage,
+            });
+        </script>
+}
+
+@if (TempData.ContainsKey("PreqError"))
+{
+        <script>
+            var preqErr = '@TempData["PreqError"]';
+            Swal.fire({
+                icon: 'error',
+                title: 'Prerequiste Error',
+                text: preqError,
+            });
+        </script>
+}
+
+@if (TempData.ContainsKey("RequisiteError"))
+{
+        <script>
+            var ReqErMsg = '@TempData["RequisiteError"]';
+            Swal.fire({
+                icon: 'error',
+                title: 'Requisite Error',
+                text: ReqErMsg,
+            });
+        </script>
+}
+
+@if (TempData.ContainsKey("MismatchError"))
+{
+        <script>
+            var mismatchMsg = '@TempData["MismatchError"]';
+            Swal.fire({
+                icon: 'error',
+                title: 'Mismatch Error',
+                text: mismatchMsg,
+            });
+        </script>
+}
+
+@if (TempData.ContainsKey("SqlError"))
+{
+        <script>
+            var dupErrMsg = '@TempData["SqlError"]';
+            Swal.fire({
+                icon: 'error',
+                title: 'SQL Database Error',
+                text: dupErrMsg,
+            });
+        </script>
+}
+
+<style>
+    header {
+        width: 103%;
+        height: 60px;
+        background: #11101b;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 100px;
+        margin-left: -3%;
+    }
+
+    .logo {
+        font-size: 28px;
+        font-weight: bold;
+        color: #fefefe;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .nav-bar ul {
+        display: flex;
+        list-style: none;
+        box-sizing: border-box;
+    }
+
+        .nav-bar ul li a {
+            display: block;
+            color: #fefefe;
+            font-size: 20px;
+            padding: 10px 25px;
+            border-radius: 25px;
+            transition: 0.2s;
+            margin: 0 5px;
+            text-decoration: none;
+        }
+
+            .nav-bar ul li a:hover {
+                color: #11101b;
+                background: #fefefe;
+            }
+
+    @@media only screen and (max-width: 1320px) {
+        header {
+            padding: 0 50px;
+        }
+    }
+
+    @@media only screen and (max-width: 1110px) {
+        header {
+            padding: 0 30px;
+        }
+    }
+
+    @@media only screen and (max-width: 900px) {
+        .hamburger {
+            display: block;
+            cursor: pointer;
+        }
+
+            .hamburger .line {
+                width: 30px;
+                height: 3px;
+                background: #fefefe;
+                margin: 6px 0;
+            }
+
+        .nav-bar {
+            height: 0;
+            position: absolute;
+            top: 44px;
+            left: 0;
+            right: 0;
+            width: 100vw;
+            background: #11101b;
+            transition: 0.5s;
+            overflow: hidden;
+        }
+
+            .nav-bar.active {
+                height: 350px;
+            }
+
+            .nav-bar ul {
+                display: block;
+                width: fit-content;
+                margin: 80px auto 0 auto;
+                text-align: center;
+                transition: 0.5s;
+                opacity: 0;
+            }
+
+            .nav-bar.active ul {
+                opacity: 1;
+            }
+
+            .nav-bar ul li a {
+                margin-bottom: 12px;
+            }
+    }
+</style>
+
+<script>
+    hamburger = document.querySelector(".hamburger");
+    hamburger.onclick = function () {
+        navBar = document.querySelector(".nav-bar");
+        navBar.classList.toggle("active");
+    }
+</script>

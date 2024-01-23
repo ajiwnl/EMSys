@@ -1,0 +1,205 @@
+﻿<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.7.1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<header id="navhome" class="hide-navbar">
+    <img class="img-s" src="https://drive.google.com/uc?export=download&id=1T9K44e5r7HejFb2pkaXNLEwsa3TYFNK5" id="icon">
+    <div class="logo">
+        @if (ViewBag.IsLoggedIn == true)
+        {
+            <span id="username"></span>
+        }
+        else if(ViewBag.IsLoggedIn == false)
+        {
+            <span id="icon">NOT LOGGED IN</span>
+        }
+    </div>
+    <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <nav class="nav-bar mt-3">
+        <ul>
+            @if (ViewBag.IsLoggedIn == true)
+            {
+                <li>
+                    <a asp-controller="Home" asp-action="Logout">Logout</a>
+                </li>
+            }
+            else if(ViewBag.IsLoggedIn == false)
+            {
+                <li>
+                    <a asp-controller="Credentials" asp-action="Index">Login</a>
+                </li>
+                <li>
+                    <a asp-controller="Credentials" asp-action="Add">Register</a>
+                </li>
+            }
+        </ul>
+    </nav>
+</header>
+
+<div class="mt-2 mb-5">
+    <div>
+        <img src="https://drive.google.com/uc?export=download&id=1RQD8MMSwlBJG_BqclfVemFOb18nreR-c" class="circleObj beatanimation" id="mainform" onclick="formClick()">
+    </div>
+    @if(ViewBag.IsLoggedIn == true)
+    {
+        <div>
+            <a asp-controller="Student" asp-action="Add">
+                <img src="https://drive.google.com/uc?export=download&id=1WVhyVbABwoMvSYtnZYTY1jzcJyjLik3w" class="options" id="register"
+                 onclick="optionSelected('darkenedbg')">
+            </a>
+        </div>
+        <div>
+            <a asp-controller="Subject" asp-action="Add">
+                <img src="https://drive.google.com/uc?export=download&id=1iZpzDxvbTIkO53IqsELAm89hv-ynkca5" class="options" id="subjects"
+                 onclick="optionSelected('darkenedbg')">
+            </a>
+        </div>
+        <div>
+            <a asp-controller="SubjectSched" asp-action="Add">
+                <img src="https://drive.google.com/uc?export=download&id=1cVBRsh0G_lD2nT8LHogWI2L59bYN8BN8" class="options" id="sched"
+                 onclick="optionSelected('darkenedbg')">
+            </a>
+        </div>
+        <div>
+            <a asp-controller="Enrollment" asp-action="Add">
+                <img src="https://drive.google.com/uc?export=download&id=184KC3xvwRnN4ejDIEYXOBotE7KunnvDq" class="options" id="enrollment"
+                 onclick="optionSelected('darkenedbg')">
+            </a>
+        </div>
+    }
+    else if (ViewBag.IsLoggedIn == false) {
+    <div>
+        <a>
+                <img src="https://drive.google.com/uc?export=download&id=1WVhyVbABwoMvSYtnZYTY1jzcJyjLik3w" class="options" id="register">
+        </a>
+    </div>
+    <div>
+        <a>
+                <img src="https://drive.google.com/uc?export=download&id=1iZpzDxvbTIkO53IqsELAm89hv-ynkca5" class="options" id="subjects">
+        </a>
+    </div>
+    <div>
+        <a>
+                <img src="https://drive.google.com/uc?export=download&id=1cVBRsh0G_lD2nT8LHogWI2L59bYN8BN8" class="options" id="sched">
+        </a>
+    </div>
+    <div>
+        <a>
+                <img src="https://drive.google.com/uc?export=download&id=184KC3xvwRnN4ejDIEYXOBotE7KunnvDq" class="options" id="enrollment">
+        </a>
+    </div>
+    }
+</div>
+
+<style>
+    header {
+        width: 103%;
+        height: 70px;
+        background: #11101b;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 100px;
+        margin-left: -3%;
+        margin-bottom: -1%;
+    }
+
+    .logo {
+        position: absolute;
+        left: 0;
+        margin-left: 18%;
+        font-size: 28px;
+        font-weight: bold;
+        color: #fefefe;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .nav-bar ul {
+        display: flex;
+        list-style: none;
+        box-sizing: border-box;
+    }
+
+        .nav-bar ul li a {
+            display: block;
+            color: #fefefe;
+            font-size: 20px;
+            padding: 10px 25px;
+            border-radius: 25px;
+            transition: 0.2s;
+            margin: 0 5px;
+            text-decoration: none;
+        }
+
+            .nav-bar ul li a:hover {
+                color: #11101b;
+                background: #fefefe;
+            }
+
+    @@media only screen and (max-width: 1320px) {
+        header {
+            padding: 0 50px;
+        }
+    }
+
+    @@media only screen and (max-width: 1110px) {
+        header {
+            padding: 0 30px;
+        }
+    }
+
+    @@media only screen and (max-width: 900px) {
+        .logo {
+            display: none;
+        }
+
+        .img-s {
+            opacity: 0%;
+            pointer-events: none;
+        }
+
+    }
+</style>
+
+<script>
+    hamburger = document.querySelector(".hamburger");
+    hamburger.onclick = function () {
+        navBar = document.querySelector(".nav-bar");
+        navBar.classList.toggle("active");
+    }
+
+    var icon = "@ViewBag.Icon";
+    var username = "@ViewBag.UserName"; 
+    if (icon == 0) {
+        document.getElementById("icon").src = "https://drive.google.com/uc?export=download&id=1RQD8MMSwlBJG_BqclfVemFOb18nreR-c";
+    }
+    if (icon == 1) {
+        document.getElementById("icon").src = "https://drive.google.com/uc?export=download&id=14HinNQuk2LdHo3jWXNZGxJ3iOMLMem13";
+    }
+    if (icon == 2) {
+        document.getElementById("icon").src = "https://drive.google.com/uc?export=download&id=1My-KhHFZsfHNRUSYCSjCBY1jxBNIrqhY";
+    }
+    if (icon == 3) {
+        document.getElementById("icon").src = "https://drive.google.com/uc?export=download&id=1yb5XoVry7NGAaHdji9ze7rPaUEw08l7Y";
+    }
+    document.getElementById("username").innerText = username;
+</script>
+
+@if (TempData.ContainsKey("SuccessMessage"))
+{
+    <script>
+        var successMessage = '@TempData["SuccessMessage"]';
+        Swal.fire({
+            icon: 'success',
+            title: 'Success',
+            text: successMessage,
+        });
+    </script>
+}

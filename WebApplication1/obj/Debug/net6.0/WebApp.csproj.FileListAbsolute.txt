@@ -1,0 +1,8 @@
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApp.csproj.AssemblyReference.cache
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApp.GeneratedMSBuildEditorConfig.editorconfig
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApp.AssemblyInfoInputs.cache
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApp.AssemblyInfo.cs
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApp.csproj.CoreCompileInputs.cache
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApp.MvcApplicationPartsAssemblyInfo.cache
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApp.RazorAssemblyInfo.cache
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApp.RazorAssemblyInfo.cs

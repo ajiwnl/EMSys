@@ -1,0 +1,480 @@
+﻿@model SubjectSched
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.7.1/dist/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.7.1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<div class="row">
+    <div class="col-sm-6 margincard position-absolute top-50 start-50 translate-middle">
+        <div class="card bg-transparent border-0">
+            <div class="card-body">
+                <fieldset class="centerform" style="--clr:#9E0606">
+                    <form method="post" asp-action="Add" asp-controller="SubjectSched" id="add-form">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <label for="sched" class="headerformats">Schedule Info</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=container>
+                            <div class="row mb-2">
+                                <div class="col-10">
+                                    <div class="form-floating mb-1">
+                                        <input type="text" asp-for="SSFEDPCODE" class="form-control formatslabel" id="edpcode" maxlength="5" required>
+                                        <label asp-for="SSFEDPCODE" for="edpcode"></label>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <a class="btn btn-lg btn-warning bubbles-sm" data-toggle="tooltip" title="Setting EDP Code for a Subject" disabled>!</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-5 mb-2 ms-3">
+                                    <div class="btn-group mx-auto" style="width: 100%">
+                                        <button type="button" id="coursecodeDropdownBtn" class="btn btn-secondary dropdown-toggle form-control" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                                            Course Code
+                                        </button>
+                                        <ul class="dropdown-menu" id="coursecodeDropdown">
+                                            @if (ViewBag.CourseCodes != null)
+                                            {
+                                                @foreach (var courseCode in ViewBag.CourseCodes)
+                                                {
+                                                    <li><a class="dropdown-item" href="#" data-value="@courseCode">@courseCode</a></li>
+                                                }
+                                            }
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-5 mb-2">
+                                    <div class="form-floating mb-1">
+                                        <input type="text" asp-for="SSFSUBJCODE" class="form-control formatslabel" id="subjcode" maxlength="15" required>
+                                        <label asp-for="SSFSUBJCODE" for="scode"></label>
+                                    </div>
+                                </div>
+                                <div class="col-1">
+                                    <a class="btn btn-lg btn-warning bubbles-sm" data-toggle="tooltip" title="Please input existing Subject Code" disabled>!</a>
+                                </div>
+                            </div>
+                            <input type="hidden" id="selectedCourseCode" asp-for="SSFCOURSECODE" maxlength="10" />
+                        </div>
+                        <div class="container">
+                            <div class="row mb-2">
+                                <div class="col mb-2">
+                                    <div class="form-floating">
+                                        <input type="time" asp-for="SSFSTARTTIME" class="form-control formatslabel" id="timestart" required disabled>
+                                        <label asp-for="SSFSTARTTIME" for="timestart"></label>
+                                    </div>
+                                </div>
+                                <div class="col mb-2">
+                                    <div class="form-floating">
+                                        <input type="time" asp-for="SSFENDTIME" class="form-control formatslabel" id="timeend" required disabled>
+                                        <label for="timestart" asp-for="SSFENDTIME"></label>
+                                    </div>
+                                </div>
+                                <div class="col mb-2">
+                                    <div class="btn-group mx-auto" style="width: 100%">
+                                        <button type="button" id="SSFXMDropdownBtn" class="btn btn-secondary dropdown-toggle form-control" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false" disabled>
+                                            Schedule
+                                        </button>
+                                        <ul class="dropdown-menu dropdown-menu-lg-end">
+                                            <li><button class="dropdown-item" type="button" onclick="selectedXM('AM')">AM</button></li>
+                                            <li><button class="dropdown-item" type="button" onclick="selectedXM('PM')">PM</button></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <input type="hidden" asp-for="SSFXM" id="selectedSSFXM" maxlength="2">
+                        </div>
+                        <div class="container">
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <div class="form-floating">
+                                    <input type="text" asp-for="SSFSECTION" class="form-control formatslabel" id="section" maxlength="3" required disabled>
+                                    <label asp-for="SSFSECTION" for="days"></label>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-floating">
+                                    <input type="text" asp-for="SSFROOM" class="form-control formatslabel" id="room" maxlength="3" required disabled>
+                                    <label asp-for="SSFROOM" for="days"></label>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-floating">
+                                        <input type="text" asp-for="SSFSCHOOLYEAR" class="form-control formatslabel" id="year" maxlength="4" required disabled>
+                                        <label asp-for="SSFSCHOOLYEAR" for="days"></label>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-floating">
+                                        <input type="text" asp-for="SSFDAYS" class="form-control formatslabel" id="days" maxlength="3" required disabled>
+                                        <label asp-for="SSFDAYS" for="days"></label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row ms-2">
+                                <div class="col">
+                                    <div class="form-group text-center btn-container">
+                                        <input type="submit" class="btn btn-success" style="width: 100%" value="SAVE">
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-group text-center btn-container">
+                                        <input type="submit" class="btn btn-danger" style="width: 100%" id="cancelBtn" value="CANCEL">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div>
+    <a asp-controller="Home" asp-action="Index" class="btnback" style="--clr:#FC43C5" onclick="optionSelected('bg')">
+        <span>Back</span><i></i>
+    </a>
+</div>
+
+<div>
+    <a asp-controller="SubjectSched" asp-action="Index" class="btnback2"
+       type="submit" style="--clr:#9E0606">
+        <span>View</span><i></i>
+    </a>
+</div>
+
+<header>
+    <div class="logo">Schedule</div>
+    <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <nav class="nav-bar mt-3">
+        <ul>
+            <li>
+                <a asp-controller="Student" asp-action="Add">Student</a>
+            </li>
+            <li>
+                <a asp-controller="Subject" asp-action="Add">Subject</a>
+            </li>
+            <li>
+                <a asp-controller="SubjectSched" asp-action="Add" class="active">Schedule</a>
+            </li>
+            <li>
+                <a asp-controller="Enrollment" asp-action="Add">Enrollment</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<script>
+    window.onload = clearInputFields;
+    // Update Course code dropdown button text and store selected value
+    $("#coursecodeDropdown a").click(function () {
+        var selectedText = $(this).data("value");
+        $("#coursecodeDropdownBtn").text(selectedText);
+        $("#selectedCourseCode").val(selectedText);
+
+        // Automatically add the subject codes based on the course code of the Subject
+        // Course Code through Course code collection
+        var courseToSubjectMap = @Html.Raw(Json.Serialize(ViewBag.CourseToSubjectMap));
+        var subjectCodes = courseToSubjectMap[selectedText];
+        var subjectCodeDropdown = $('#subjcode');
+        subjectCodeDropdown.empty();
+
+        subjectCodeDropdown.append($('<option>', {
+            value: '',
+            text: 'Select Subject Code'
+        }));
+
+        if (subjectCodes && Array.isArray(subjectCodes)) {
+            subjectCodes.forEach(function (subjectCode) {
+                subjectCodeDropdown.append($('<option>', {
+                    value: subjectCode,
+                    text: subjectCode
+                }));
+            });
+        }
+    });
+
+
+    $("#ssfxmDropdown li a").click(function () {
+        var selectedText = $(this).text();
+        $("#SSFXMDropdownBtn").text(selectedText);
+        $("#selectedSSFXM").val(selectedText);
+    });
+
+    // Event listener for Enter Keypress
+    $("#subjcode").on("keydown", function (event) {
+        if (event.key === "Enter") {
+            event.preventDefault(); // In default, when saving a file you can keypress ENTER
+            verifySubjectCode();   //so utilize this preventDefault to saving when pressing ENTER
+        }
+    });
+
+    function verifySubjectCode() {
+        var subjectCode = $("#subjcode").val();
+        var courseCode = $("#selectedCourseCode").val();
+
+        // Create AJAX request to check if the subject code exists in the specified course code
+        $.ajax({
+            url: "/SubjectSched/VerifySubject",
+            method: "POST",
+            data: {
+                subjectCode: subjectCode,
+                courseCode: courseCode
+            },
+            success: function (data) {
+                if (data.isValid) {
+                    // If subject code is available in a specific course code,
+                    // show a JS Pop-up box
+                    Swal.fire({
+                        icon: 'success',
+                        title: 'Success',
+                        text: 'Subject code is avaialable.'
+                    });
+                    $("#timestart").prop("disabled", false);
+                    $("#timeend").prop("disabled", false);
+                    $("#SSFXMDropdownBtn").prop("disabled", false);
+                    $("#section").prop("disabled", false);
+                    $("#room").prop("disabled", false);
+                    $("#year").prop("disabled", false);
+                    $("#days").prop("disabled", false);
+                } else {
+                    // If subject code is unavailable,
+                    // show an error message
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Error',
+                        text: 'Subject code is not available.'
+                    });
+                }
+            }
+        });
+    }
+
+    // Function to check for time, room, and schedule conflicts
+    function checkForConflictsAndSubmit() {
+        var startTime = $("#timestart").val();
+        var endTime = $("#timeend").val();
+        var days = $("#days").val();
+        var room = $("#room").val();
+
+        //AJAX request to check for overlapping entries in time, date, and day
+        $.ajax({
+            type: "GET",
+            url: "/SubjectSched/CheckSchedule",
+            data: { startTime: startTime, endTime: endTime, days: days, room: room },
+            success: function (data) {
+                //The code checks if the value of the variable data
+                // == "conflict".
+                // It will display an error message using a JS pop-up box.
+                if (data === "conflict") {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Conflict Error',
+                        text: 'A conflict with the schedule (time, room, and day) was found. Please select a different schedule.',
+                    });
+
+                }
+                else {
+                    // No conflict, proceed with form submission
+                    $("#add-form").off('submit'); // Remove the previous submit event handler
+                    $("#add-form").submit(); // Submit the form
+                }
+            }
+        });
+    }
+
+    // Utilized the checkForConflictsAndSubmit function to the form submission event
+    $("#add-form").submit(function (event) {
+        event.preventDefault(); // Prevent the default form submission
+        checkForConflictsAndSubmit(); // Check for conflicts and submit the form
+    });
+
+    // Function to clear input fields and reset dropdowns
+    function clearInputFields() {
+        $("input[name='SSFEDPCODE']").val('');
+        $("input[name='SSFSUBJCODE']").val('');
+        $("input[name='SSFSTARTTIME']").val('');
+        $("input[name='SSFENDTIME']").val('');
+        $("input[name='SSFDAYS']").val('');
+        $("input[name='SSFROOM']").val('');
+        $("input[name='SSFSECTION']").val('');
+        $("input[name='SSFSCHOOLYEAR']").val('');
+        $("#SSFXMDropdownBtn").text("Schedule"); // Reset the schedule choices
+        $("#coursecodeDropdownBtn").text("Course Code"); // Reset the Schedule
+        // Clear values of other input fields as needed
+        $("input[name='SSFCOURSECODE']").val('');
+        $("input[name='SSFXM']").val('');
+        $("#timestart").prop("disabled", true);
+        $("#timeend").prop("disabled", true);
+        $("#SSFXMDropdownBtn").prop("disabled", true);
+        $("#section").prop("disabled", true);
+        $("#room").prop("disabled", true);
+        $("#year").prop("disabled", true);
+        $("#days").prop("disabled", true);
+    }
+
+    $('#cancelBtn').click(function () {
+        clearInputFields();
+        return false;
+    });
+</script>
+
+@if (TempData.ContainsKey("FieldError"))
+{
+    <script>
+        var fieldError = '@TempData["FieldError"]';
+        Swal.fire({
+            icon: 'error',
+            title: 'Field Validation Entry Error',
+            text: fieldError,
+        });
+    </script>
+}
+
+@if (TempData.ContainsKey("DuplicateError"))
+{
+    <script>
+        var duplicateError = '@TempData["DuplicateError"]';
+        Swal.fire({
+            icon: 'error',
+            title: 'Duplicate Error',
+            text: duplicateError,
+        });
+    </script>
+}
+
+@if (TempData.ContainsKey("SuccessMessage"))
+{
+    <script>
+        var successMessage = '@TempData["SuccessMessage"]';
+        Swal.fire({
+            icon: 'success',
+            title: 'Success',
+            text: successMessage,
+        });
+    </script>
+}
+
+<style>
+    header {
+        width: 103%;
+        height: 60px;
+        background: #11101b;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 100px;
+        margin-left: -3%;
+    }
+
+    .logo{
+        font-size: 28px;
+        font-weight: bold;
+        color: #fefefe;
+    }
+
+    .hamburger{
+        display: none;
+    }
+
+    .nav-bar ul {
+        display: flex;
+        list-style: none;
+        box-sizing: border-box;
+    }
+
+    .nav-bar ul li a {
+        display: block;
+        color: #fefefe;
+        font-size: 20px;
+        padding: 10px 25px;
+        border-radius: 25px;
+        transition: 0.2s;
+        margin: 0 5px;
+        text-decoration: none;
+    }
+
+    .nav-bar ul li a:hover {
+        color: #11101b;
+        background: #fefefe;
+    }
+
+    @@media only screen and (max-width: 1320px) {
+        header {
+            padding: 0 50px;
+        }
+    }
+
+    @@media only screen and (max-width: 1110px) {
+        header {
+            padding: 0 30px;
+        }
+    }
+
+    @@media only screen and (max-width: 900px) {
+        .hamburger {
+            display: block;
+            cursor: pointer;
+        }
+
+        .hamburger .line {
+            width: 30px;
+            height: 3px;
+            background: #fefefe;
+            margin: 6px 0;
+        }
+
+        .nav-bar {
+            height: 0;
+            position: absolute;
+            top: 44px;
+            left: 0;
+            right: 0;
+            width: 100vw;
+            background: #11101b;
+            transition: 0.5s;
+            overflow: hidden;
+        }
+
+        .nav-bar.active {
+            height: 350px;
+        }
+
+        .nav-bar ul {
+            display: block;
+            width: fit-content;
+            margin: 80px auto 0 auto;
+            text-align: center;
+            transition: 0.5s;
+            opacity: 0;
+        }
+
+        .nav-bar.active ul{
+            opacity: 1;
+        }
+
+        .nav-bar ul li a {
+            margin-bottom: 12px;
+        }
+    }
+</style>
+
+<script>
+    hamburger = document.querySelector(".hamburger");
+    hamburger.onclick = function() {
+        navBar = document.querySelector(".nav-bar");
+        navBar.classList.toggle("active");
+    }
+</script>

@@ -1,0 +1,785 @@
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\appsettings.Development.json
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\appsettings.json
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\WebApplication1.staticwebassets.runtime.json
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\WebApplication1.exe
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\WebApplication1.deps.json
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\WebApplication1.runtimeconfig.json
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\WebApplication1.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\WebApplication1.pdb
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Azure.Core.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Azure.Identity.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Humanizer.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Mono.TextTemplating.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\System.CodeDom.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\System.Drawing.Common.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\System.Memory.Data.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\System.Runtime.Caching.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\System.Security.Permissions.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\System.Text.Json.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\System.Windows.Extensions.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.AssemblyReference.cache
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.AssemblyInfoInputs.cache
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.AssemblyInfo.cs
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.CoreCompileInputs.cache
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.RazorAssemblyInfo.cache
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.RazorAssemblyInfo.cs
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.WebApplication1.Microsoft.AspNetCore.StaticWebAssets.props
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.build.WebApplication1.props
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.WebApplication1.props
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.WebApplication1.props
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\staticwebassets.pack.json
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\staticwebassets.build.json
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\staticwebassets.development.json
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\scopedcss\bundle\WebApplication1.styles.css
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\scopedcss\projectbundle\WebApplication1.bundle.scp.css
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.CopyComplete
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\refint\WebApplication1.dll
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.pdb
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.genruntimeconfig.cache
+\\Server2\first semester 2023-2024\COMPLAB802\77034_IT_ELDNET1_0300_0430_PM_TTH\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\ref\WebApplication1.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\appsettings.Development.json
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\appsettings.json
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\WebApplication1.staticwebassets.runtime.json
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\WebApplication1.exe
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\WebApplication1.deps.json
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\WebApplication1.runtimeconfig.json
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\WebApplication1.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\WebApplication1.pdb
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Azure.Core.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Azure.Identity.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Humanizer.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\Mono.TextTemplating.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\System.CodeDom.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\System.Drawing.Common.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\System.Memory.Data.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\System.Runtime.Caching.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\System.Security.Permissions.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\System.Text.Json.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\System.Windows.Extensions.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.AssemblyReference.cache
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.AssemblyInfoInputs.cache
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.AssemblyInfo.cs
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.CoreCompileInputs.cache
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.RazorAssemblyInfo.cache
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.RazorAssemblyInfo.cs
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.WebApplication1.Microsoft.AspNetCore.StaticWebAssets.props
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.build.WebApplication1.props
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.WebApplication1.props
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.WebApplication1.props
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\staticwebassets.pack.json
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\staticwebassets.build.json
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\staticwebassets.development.json
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\scopedcss\bundle\WebApplication1.styles.css
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\scopedcss\projectbundle\WebApplication1.bundle.scp.css
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.CopyComplete
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\refint\WebApplication1.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.pdb
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.genruntimeconfig.cache
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\MACAS_KJ\WebApplication1\WebApplication1\obj\Debug\net6.0\ref\WebApplication1.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\appsettings.Development.json
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\appsettings.json
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\WebApplication1.staticwebassets.runtime.json
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\WebApplication1.exe
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\WebApplication1.deps.json
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\WebApplication1.runtimeconfig.json
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\WebApplication1.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\WebApplication1.pdb
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\Azure.Core.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\Azure.Identity.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\Humanizer.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\Mono.TextTemplating.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\System.CodeDom.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\System.Drawing.Common.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\System.Memory.Data.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\System.Runtime.Caching.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\System.Security.Permissions.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\System.Text.Json.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\System.Windows.Extensions.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.AssemblyReference.cache
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.AssemblyInfoInputs.cache
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.AssemblyInfo.cs
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.CoreCompileInputs.cache
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.RazorAssemblyInfo.cache
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.RazorAssemblyInfo.cs
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.WebApplication1.Microsoft.AspNetCore.StaticWebAssets.props
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.build.WebApplication1.props
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.WebApplication1.props
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.WebApplication1.props
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\obj\Debug\net6.0\staticwebassets.pack.json
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\obj\Debug\net6.0\staticwebassets.build.json
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\obj\Debug\net6.0\staticwebassets.development.json
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\obj\Debug\net6.0\scopedcss\bundle\WebApplication1.styles.css
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\obj\Debug\net6.0\scopedcss\projectbundle\WebApplication1.bundle.scp.css
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.CopyComplete
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\obj\Debug\net6.0\refint\WebApplication1.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.pdb
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.genruntimeconfig.cache
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\WebApplication1\WebApplication1\obj\Debug\net6.0\ref\WebApplication1.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\appsettings.json
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\WebApplication1.staticwebassets.runtime.json
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\WebApplication1.exe
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\WebApplication1.deps.json
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\WebApplication1.runtimeconfig.json
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\WebApplication1.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\WebApplication1.pdb
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\Humanizer.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\UPDATE\WebApplication1\obj\Debug\net6.0\WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\UPDATE\WebApplication1\obj\Debug\net6.0\WebApplication1.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\UPDATE\WebApplication1\obj\Debug\net6.0\WebApplication1.AssemblyInfo.cs
+C:\Users\User\Desktop\UPDATE\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\UPDATE\WebApplication1\obj\Debug\net6.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Desktop\UPDATE\WebApplication1\obj\Debug\net6.0\WebApplication1.RazorAssemblyInfo.cache
+C:\Users\User\Desktop\UPDATE\WebApplication1\obj\Debug\net6.0\WebApplication1.RazorAssemblyInfo.cs
+C:\Users\User\Desktop\UPDATE\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.WebApplication1.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\User\Desktop\UPDATE\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.build.WebApplication1.props
+C:\Users\User\Desktop\UPDATE\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.WebApplication1.props
+C:\Users\User\Desktop\UPDATE\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.WebApplication1.props
+C:\Users\User\Desktop\UPDATE\WebApplication1\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\User\Desktop\UPDATE\WebApplication1\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\User\Desktop\UPDATE\WebApplication1\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\User\Desktop\UPDATE\WebApplication1\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\User\Desktop\UPDATE\WebApplication1\obj\Debug\net6.0\scopedcss\bundle\WebApplication1.styles.css
+C:\Users\User\Desktop\UPDATE\WebApplication1\obj\Debug\net6.0\scopedcss\projectbundle\WebApplication1.bundle.scp.css
+C:\Users\User\Desktop\UPDATE\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.CopyComplete
+C:\Users\User\Desktop\UPDATE\WebApplication1\obj\Debug\net6.0\WebApplication1.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\obj\Debug\net6.0\refint\WebApplication1.dll
+C:\Users\User\Desktop\UPDATE\WebApplication1\obj\Debug\net6.0\WebApplication1.pdb
+C:\Users\User\Desktop\UPDATE\WebApplication1\obj\Debug\net6.0\WebApplication1.genruntimeconfig.cache
+C:\Users\User\Desktop\UPDATE\WebApplication1\obj\Debug\net6.0\ref\WebApplication1.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\appsettings.json
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\WebApplication1.staticwebassets.runtime.json
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\WebApplication1.exe
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\WebApplication1.deps.json
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\WebApplication1.runtimeconfig.json
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\WebApplication1.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\WebApplication1.pdb
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\Humanizer.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.AssemblyReference.cache
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\obj\Debug\net6.0\WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\obj\Debug\net6.0\WebApplication1.AssemblyInfoInputs.cache
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\obj\Debug\net6.0\WebApplication1.AssemblyInfo.cs
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\obj\Debug\net6.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\obj\Debug\net6.0\WebApplication1.RazorAssemblyInfo.cache
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\obj\Debug\net6.0\WebApplication1.RazorAssemblyInfo.cs
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.WebApplication1.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.build.WebApplication1.props
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.WebApplication1.props
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.WebApplication1.props
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\obj\Debug\net6.0\scopedcss\bundle\WebApplication1.styles.css
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\obj\Debug\net6.0\scopedcss\projectbundle\WebApplication1.bundle.scp.css
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.CopyComplete
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\obj\Debug\net6.0\WebApplication1.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\obj\Debug\net6.0\refint\WebApplication1.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\obj\Debug\net6.0\WebApplication1.pdb
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\obj\Debug\net6.0\WebApplication1.genruntimeconfig.cache
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Student and Subject\WebApplication1\obj\Debug\net6.0\ref\WebApplication1.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\appsettings.json
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\WebApplication1.staticwebassets.runtime.json
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\WebApplication1.exe
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\WebApplication1.deps.json
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\WebApplication1.runtimeconfig.json
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\WebApplication1.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\WebApplication1.pdb
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\Humanizer.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.AssemblyReference.cache
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\obj\Debug\net6.0\WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\obj\Debug\net6.0\WebApplication1.AssemblyInfoInputs.cache
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\obj\Debug\net6.0\WebApplication1.AssemblyInfo.cs
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\obj\Debug\net6.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\obj\Debug\net6.0\WebApplication1.RazorAssemblyInfo.cache
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\obj\Debug\net6.0\WebApplication1.RazorAssemblyInfo.cs
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.WebApplication1.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.build.WebApplication1.props
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.WebApplication1.props
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.WebApplication1.props
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\obj\Debug\net6.0\scopedcss\bundle\WebApplication1.styles.css
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\obj\Debug\net6.0\scopedcss\projectbundle\WebApplication1.bundle.scp.css
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.CopyComplete
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\obj\Debug\net6.0\WebApplication1.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\obj\Debug\net6.0\refint\WebApplication1.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\obj\Debug\net6.0\WebApplication1.pdb
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\obj\Debug\net6.0\WebApplication1.genruntimeconfig.cache
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\Test\WebApplication1\obj\Debug\net6.0\ref\WebApplication1.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\appsettings.Development.json
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\appsettings.json
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\WebApplication1.staticwebassets.runtime.json
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\WebApplication1.exe
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\WebApplication1.deps.json
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\WebApplication1.runtimeconfig.json
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\WebApplication1.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\WebApplication1.pdb
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\Azure.Core.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\Azure.Identity.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\Humanizer.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\Mono.TextTemplating.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\System.CodeDom.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\System.Drawing.Common.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\System.Memory.Data.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\System.Runtime.Caching.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\System.Security.Permissions.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\System.Text.Json.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\System.Windows.Extensions.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.AssemblyReference.cache
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\obj\Debug\net6.0\WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\obj\Debug\net6.0\WebApplication1.AssemblyInfoInputs.cache
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\obj\Debug\net6.0\WebApplication1.AssemblyInfo.cs
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.CoreCompileInputs.cache
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\obj\Debug\net6.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\obj\Debug\net6.0\WebApplication1.RazorAssemblyInfo.cache
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\obj\Debug\net6.0\WebApplication1.RazorAssemblyInfo.cs
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.WebApplication1.Microsoft.AspNetCore.StaticWebAssets.props
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.build.WebApplication1.props
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.WebApplication1.props
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.WebApplication1.props
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\obj\Debug\net6.0\staticwebassets.pack.json
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\obj\Debug\net6.0\staticwebassets.build.json
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\obj\Debug\net6.0\staticwebassets.development.json
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\obj\Debug\net6.0\scopedcss\bundle\WebApplication1.styles.css
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\obj\Debug\net6.0\scopedcss\projectbundle\WebApplication1.bundle.scp.css
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.CopyComplete
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\obj\Debug\net6.0\WebApplication1.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\obj\Debug\net6.0\refint\WebApplication1.dll
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\obj\Debug\net6.0\WebApplication1.pdb
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\obj\Debug\net6.0\WebApplication1.genruntimeconfig.cache
+\\SERVER2\eldnet\77034\77034-22232284\Desktop\ELDNET\WebApplication1\obj\Debug\net6.0\ref\WebApplication1.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\appsettings.json
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\WebApplication1.staticwebassets.runtime.json
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\WebApplication1.exe
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\WebApplication1.deps.json
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\WebApplication1.runtimeconfig.json
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\WebApplication1.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\WebApplication1.pdb
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\Humanizer.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.AssemblyReference.cache
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\obj\Debug\net6.0\WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\obj\Debug\net6.0\WebApplication1.AssemblyInfoInputs.cache
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\obj\Debug\net6.0\WebApplication1.AssemblyInfo.cs
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\obj\Debug\net6.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\obj\Debug\net6.0\WebApplication1.RazorAssemblyInfo.cache
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\obj\Debug\net6.0\WebApplication1.RazorAssemblyInfo.cs
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.WebApplication1.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.build.WebApplication1.props
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.WebApplication1.props
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.WebApplication1.props
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\obj\Debug\net6.0\scopedcss\bundle\WebApplication1.styles.css
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\obj\Debug\net6.0\scopedcss\projectbundle\WebApplication1.bundle.scp.css
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.CopyComplete
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\obj\Debug\net6.0\WebApplication1.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\obj\Debug\net6.0\refint\WebApplication1.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\obj\Debug\net6.0\WebApplication1.pdb
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\obj\Debug\net6.0\WebApplication1.genruntimeconfig.cache
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\obj\Debug\net6.0\ref\WebApplication1.dll
+C:\Users\User\Documents\School Files Kenet\Grades and Years\3rd Year\ELDNET\LATEST\WebApplication1\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\appsettings.json
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\WebApplication1.staticwebassets.runtime.json
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\WebApplication1.exe
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\WebApplication1.deps.json
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\WebApplication1.runtimeconfig.json
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\WebApplication1.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\WebApplication1.pdb
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\Humanizer.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.AssemblyReference.cache
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\obj\Debug\net6.0\WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\obj\Debug\net6.0\WebApplication1.AssemblyInfoInputs.cache
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\obj\Debug\net6.0\WebApplication1.AssemblyInfo.cs
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\obj\Debug\net6.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\obj\Debug\net6.0\WebApplication1.RazorAssemblyInfo.cache
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\obj\Debug\net6.0\WebApplication1.RazorAssemblyInfo.cs
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.WebApplication1.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.build.WebApplication1.props
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.WebApplication1.props
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.WebApplication1.props
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\obj\Debug\net6.0\scopedcss\bundle\WebApplication1.styles.css
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\obj\Debug\net6.0\scopedcss\projectbundle\WebApplication1.bundle.scp.css
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.CopyComplete
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\obj\Debug\net6.0\WebApplication1.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\obj\Debug\net6.0\refint\WebApplication1.dll
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\obj\Debug\net6.0\WebApplication1.pdb
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\obj\Debug\net6.0\WebApplication1.genruntimeconfig.cache
+C:\Users\alvin\source\repos\ELDNET\WebApplication1\obj\Debug\net6.0\ref\WebApplication1.dll

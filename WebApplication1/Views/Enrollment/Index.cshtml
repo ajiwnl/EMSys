@@ -1,0 +1,114 @@
+﻿@model List<WebApplication1.Models.Enrollment>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.7.1/dist/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.7.1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<style>
+    .format {
+        color: whitesmoke;
+    }
+
+    .table-wrapper {
+        max-height: 470px;
+        overflow-y: auto;
+    }
+
+    table {
+        width: 150%;
+    }
+</style>
+<div class="card-body viewform mt-3" style="--clr:#FAFA04">
+    <h3 class="format position-absolute top-0 start-50 translate-middle-x mt-2">Enrolled Students List</h3>
+    <form method="get" asp-action="Index">
+        <div class="row offset-10 me-2">
+            <input type="text" id="searchStudentID" name="searchStudentID" placeholder="Enter Student ID" maxlength="15">
+        </div>
+    </form>
+    <div class="table-wrapper mt-3">
+        <table class="table table-hover table-dark table-striped format">
+            <thead>
+                <tr>
+                    <th scope="col">Enrolled ID</th>
+                    <th scope="col">Date Enrolled</th>
+                    <th scope="col">School Year</th>
+                    <th scope="col">Encoder ID</th>
+                    <th scope="col">Total Units</th>
+                    <th scope="col">Status</th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var enrollment in Model)
+                {
+                    <tr>
+                        <td>@enrollment.ENRHFSTUDID</td>
+                        <td>
+                            @if (enrollment.ENRHFSTUDDATEENROLL.HasValue)
+                            {
+                                @enrollment.ENRHFSTUDDATEENROLL.Value.ToString("MM/dd/yyyy")
+                            }
+                            else
+                            {
+                                @Html.DisplayFor(modelItem => enrollment.ENRHFSTUDDATEENROLL)
+                            }
+                        </td>
+                        <td>@enrollment.ENRHFSTUDSCHLYR</td>
+                        <td>@enrollment.ENRHFSTUDENCODER</td>
+                        <td>@enrollment.ENRHFSTUDTOTALUNITS</td>
+                        <td>@enrollment.ENRHFSTUDSTATUS</td>
+                        <td>
+                            <div class="btn-group" role="group">
+                                <a asp-controller="Enrollment" asp-action="Edit" asp-route-code="@enrollment.ENRHFSTUDID"
+                               class=" btn-sm btn-secondary mx-2" style="text-decoration: none">Edit</a>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="btn-group" role="group">
+                                <form asp-controller="Enrollment" asp-action="Delete" asp-route-code="@enrollment.ENRHFSTUDID" method="post">
+                                    <button type="submit" class="btn-sm btn-danger mx-2" style="text-decoration: none">Delete</button>
+                                </form>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+<div>
+    <a asp-controller="Enrollment" asp-action="Add" class="btnback" style="--clr:#FAFA04">
+        <span>Back</span><i></i>
+    </a>
+</div>
+
+<div>
+    <a asp-controller="EnrollmentDetails" asp-action="Index" class="btnback2" style="--clr:#FF8300">
+        <span>Detail</span><i></i>
+    </a>
+</div>
+
+@if (TempData.ContainsKey("DelMessage"))
+{
+    <script>
+        var delMessage = '@TempData["DelMessage"]';
+        Swal.fire({
+            icon: 'success',
+            title: 'Success',
+            text: delMessage,
+        });
+    </script>
+}
+
+@if (TempData.ContainsKey("UpMessage"))
+{
+    <script>
+        var upMessage = '@TempData["UpMessage"]';
+        Swal.fire({
+            icon: 'success',
+            title: 'Success',
+            text: upMessage,
+        });
+    </script>
+}   

@@ -1,0 +1,829 @@
+﻿@model Enrollment
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.7.1/dist/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.7.1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<div class="row">
+    <div class="col-sm-6 margincard position-absolute ms-1 margin-top">
+        <div class="card bg-transparent border-0" style="width: 200%">
+            <div class="card-body">
+                <fieldset class="viewform" style="--clr:#FAFA04">
+                    <form method="post" asp-action="Add" asp-controller="Enrollment" id="enrollform" onsubmit="disabled">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col">
+                                                <label for="enroll" class="headerformats">Student Info</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="container mb-1">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="form-floating">
+                                                    <input type="text" id="studid" class="form-control formatslabel" asp-for="ENRHFSTUDID" maxlength="15" required>
+                                                    <label for="studid" class="label">Student ID:</label>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <input type="button" id="checkStudent" class="btn btn-primary" value="Check Student">
+                                            </div>
+                                            <div class="col-2">
+                                                <a class="btn btn-sm btn-warning bubbles-sm" data-toggle="tooltip" title="Input Student ID Example: 22232284" disabled>!</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-10">
+                                                <div class="form-floating">
+                                                    <input id="studname" type="text" class="form-control formatslabel" disabled>
+                                                    <label for="studname" class="label">Name:</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-5">
+                                                <div class="form-floating">
+                                                    <input type="text" id="studyear" class="form-control formatslabel" disabled>
+                                                    <label for="year" class="label">Year:</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-5">
+                                                <div class="form-floating">
+                                                    <input type="text" id="studcourse" class="form-control formatslabel" disabled>
+                                                    <label for="course" class="label">Course:</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col">
+                                                <label for="enroll" class="headerformats">Subject List</label>
+                                            </div>
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-6">
+                                                        <div class="form-floating">
+                                                            <input type="text" id="enedpcode" class="form-control formatslabel" maxlength="5">
+                                                            <label for="edpcode" class="label">EDP Code:</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-2">
+                                                        <a class="btn btn-sm btn-warning bubbles-sm" data-toggle="tooltip" title="Input EDP Code Example: 77034" disabled>!</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col">
+                                                        <div class="table-wrapper mt-3 mb-2">
+                                                            <table class="table table-hover table-dark table-striped format" id="edptable">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th scope="col">EDP Code</th>
+                                                                        <th scope="col">Subject Code</th>
+                                                                        <th scope="col">Start Time</th>
+                                                                        <th scope="col">End Time</th>
+                                                                        <th scope="col">Schedule</th>
+                                                                        <th scope="col">Room #</th>
+                                                                        <th scope="col">Units</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td></td>
+                                                                        <td></td>
+                                                                        <td></td>
+                                                                        <td></td>
+                                                                        <td></td>
+                                                                        <td></td>
+                                                                        <td></td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="container">
+                                                <div class="row mb-2">
+                                                    <div class="col-6">
+                                                        <div class="form-floating">
+                                                            <input type="text" class="form-control formatslabel" id="encoder" maxlength="15" asp-for="ENRHFSTUDENCODER" required>
+                                                            <label for="encoder" class="label">Encoder: </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-4">
+                                                        <div class="form-floating">
+                                                            <input type="date" class="form-control formatslabel" id="date" asp-for="ENRHFSTUDDATEENROLL" required>
+                                                            <label for="date" class="label">Date: </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-2">
+                                                        <div class="form-floating">
+                                                            <input type="text" id="entotalunits" class="form-control formatslabel" disabled>
+                                                            <input type="hidden" id="hiddenTotalUnits" asp-for="ENRHFSTUDTOTALUNITS">
+                                                            <label for="tunits" class="label">Units: </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="container">
+                                                <div class="row ms-2">
+                                                    <div class="col">
+                                                        <div class="form-group text-center btn-container ms-2">
+                                                            <input type="submit" id="enbtn" class="btn btn-success" style="width: 75%" value="ENROLL">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="form-group text-center btn-container">
+                                                            <input type="submit" class="btn btn-danger" style="width: 75%" id="cancelBtn" value="CANCEL">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+</div>
+
+<header>
+    <div class="logo">Student</div>
+    <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <nav class="nav-bar mt-3">
+        <ul>
+            <li>
+                <a asp-controller="Student" asp-action="Add">Student</a>
+            </li>
+            <li>
+                <a asp-controller="Subject" asp-action="Add">Subject</a>
+            </li>
+            <li>
+                <a asp-controller="SubjectSched" asp-action="Add">Schedule</a>
+            </li>
+            <li>
+                <a asp-controller="Enrollment" asp-action="Add" class="active">Enrollment</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<div>
+    <a asp-controller="Home" asp-action="Index" class="btnback" style="--clr:#FC43C5" onclick="optionSelected('bg')">
+        <span>Back</span><i></i>
+    </a>
+</div>
+
+<div>
+    <a asp-controller="Enrollment" asp-action="Index" class="btnback2"
+       type="submit" style="--clr:#FAFA04">
+        <span>View</span><i></i>
+    </a>
+</div>
+
+<style>
+    header {
+        width: 103%;
+        height: 60px;
+        background: #11101b;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 100px;
+        margin-left: -3%;
+    }
+
+    .logo {
+        font-size: 28px;
+        font-weight: bold;
+        color: #fefefe;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .nav-bar ul {
+        display: flex;
+        list-style: none;
+        box-sizing: border-box;
+    }
+
+        .nav-bar ul li a {
+            display: block;
+            color: #fefefe;
+            font-size: 20px;
+            padding: 10px 25px;
+            border-radius: 25px;
+            transition: 0.2s;
+            margin: 0 5px;
+            text-decoration: none;
+        }
+
+            .nav-bar ul li a:hover {
+                color: #11101b;
+                background: #fefefe;
+            }
+
+    @@media only screen and (max-width: 1320px) {
+        header {
+            padding: 0 50px;
+        }
+    }
+
+    @@media only screen and (max-width: 1110px) {
+        header {
+            padding: 0 30px;
+        }
+    }
+
+    @@media only screen and (max-width: 900px) {
+        .hamburger {
+            display: block;
+            cursor: pointer;
+        }
+
+            .hamburger .line {
+                width: 30px;
+                height: 3px;
+                background: #fefefe;
+                margin: 6px 0;
+            }
+
+        .nav-bar {
+            height: 0;
+            position: absolute;
+            top: 44px;
+            left: 0;
+            right: 0;
+            width: 100vw;
+            background: #11101b;
+            transition: 0.5s;
+            overflow: hidden;
+        }
+
+            .nav-bar.active {
+                height: 350px;
+            }
+
+            .nav-bar ul {
+                display: block;
+                width: fit-content;
+                margin: 80px auto 0 auto;
+                text-align: center;
+                transition: 0.5s;
+                opacity: 0;
+            }
+
+            .nav-bar.active ul {
+                opacity: 1;
+            }
+
+            .nav-bar ul li a {
+                margin-bottom: 12px;
+            }
+    }
+
+    @@media only screen and (max-width: 825px) {
+        .viewform {
+            max-height: 500px;
+            overflow-y: auto;
+        }
+    }
+
+    @@media only screen and (max-width: 640px) {
+        .viewform {
+            height: 500px;
+            overflow-y: auto;
+        }
+    }
+
+    @@media only screen and (max-width: 580px) {
+        .viewform {
+            height: 500px;
+            width: 520px;
+            overflow-y: auto;
+        }
+    }
+
+    @@media only screen and (max-width: 530px) {
+        .viewform {
+            height: 500px;
+            width: 450px;
+            overflow-y: auto;
+        }
+    }
+
+    .table-wrapper {
+        max-height: 120px;
+        overflow-y: auto;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    thead, tbody {
+        font-size: 14px;
+    }
+
+    .label {
+        font-size: 20px;
+    }
+
+    .formatslabel {
+        font-size: 16px;
+    }
+
+    .margin-top {
+        margin-top: 10%;
+    }
+</style>
+
+
+<script>
+    hamburger = document.querySelector(".hamburger");
+    hamburger.onclick = function () {
+        navBar = document.querySelector(".nav-bar");
+        navBar.classList.toggle("active");
+    }
+
+    $(document).ready(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+</script>
+
+<script>
+    var edpCodesList = []; // Maintain a list of EDP codes
+    var edpCodesForEnrollment = [];  // Variable to store the retrieved EDP codes for enrollment
+    window.onload = clearAllData();
+
+    $(document).ready(function () {
+        $(document).on("click", "#checkStudent", function () {
+            var studentId = $("#studid").val();
+
+            if (studentId !== '') {
+                checkStudentExistence(studentId);
+            } else {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Invalid Student ID',
+                    text: 'Invalid Student ID Number.'
+                });
+            }
+        });
+
+        function checkStudentExistence(studentId) {
+            // Create an AJAX request to check if the student exists
+            $.ajax({
+                url: "/Enrollment/CheckStudent",
+                method: "GET",
+                data: {
+                    studentId: studentId
+                },
+                success: function (data) {
+                    if (data.studentExists) {
+                        // If the student exists, populate the input boxes
+                        $("#studname").val(data.name);
+                        $("#studyear").val(data.year);
+                        $("#studcourse").val(data.course);
+
+                        // If the student exists, show a success message
+                        Swal.fire({
+                            icon: 'success',
+                            title: 'Student Found',
+                            text: 'Student Information Found.'
+                        });
+                    } else {
+                        // If the student doesn't exist, show an error message
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Student not found',
+                            text: 'Student information does not exist.'
+                        });
+                        $("#studname").val('');
+                        $("#studyear").val('');
+                        $("#studcourse").val('');
+                    }
+                }
+            });
+        }
+    });
+
+    $(document).ready(function () {
+        var table = $("table tbody");
+
+        // Event handler for the EDP Code input
+        $("#enedpcode").on("keydown", function (event) {
+            if (event.key === "Enter") {
+                event.preventDefault(); // Prevent form submission
+                var edpCode = $(this).val();
+
+                // Check if the EDP code already exists in the list
+                if (edpCodesList.includes(edpCode)) {
+                    // Display a Swal notification for duplicate EDP code
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Duplicate EDP Code',
+                        text: 'EDP Code already exists in the table.'
+                    });
+                    return; // Do not add duplicate EDP codes
+                }
+
+
+                // Make an AJAX request to retrieve data based on the EDP Code
+                $.ajax({
+                    url: "/Enrollment/CheckEDPCode",
+                    type: "GET",
+                    data: { edpCode: edpCode },
+                    success: function (data) {
+                        if (data.edpCodeExists) {
+                            if (data.alreadyAdded) {
+                                // Display a Swal notification for duplicate EDP code
+                                Swal.fire({
+                                    icon: 'error',
+                                    title: 'Duplicate EDP Code',
+                                    text: 'EDP Code already exists in the table.'
+                                });
+                                return;
+                            }
+
+                            // Check for time and day conflicts
+                            if (isScheduleConflict(data)) {
+                                // Display a Swal notification for schedule conflict
+                                Swal.fire({
+                                    icon: 'error',
+                                    title: 'Schedule Conflict',
+                                    text: 'There is a time and day conflict with an existing EDP code.'
+                                });
+                                return;
+                            }
+
+                            // Populate the table with the retrieved data
+                            updateTable(data);
+
+                            // Add the EDP code to the list to track duplicates
+                            edpCodesList.push(edpCode);
+                        } else {
+                            // Display a Swal notification for EDP code not found
+                            Swal.fire({
+                                icon: 'error',
+                                title: 'EDP Code not found',
+                                text: 'The entered EDP Code was not found.'
+                            });
+                        }
+                    },
+                    error: function () {
+                        // Display a Swal notification for an error
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Error',
+                            text: 'An error occurred while processing your request.'
+                        });
+                    }
+                });
+
+            }
+
+        });
+
+        // Function to update the table with retrieved data
+        function updateTable(data) {
+            // Check for time and day conflicts before adding to the table
+            if (isScheduleConflict(data)) {
+                // Display a Swal notification for schedule conflict
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Schedule Conflict',
+                    text: 'There is a time and day conflict with an existing EDP code.'
+                });
+            } else {
+                // Create a new row and cells to display the data
+                var row = $("<tr>");
+                row.append($("<td>").text(data.edpCode)); // EDP Code
+                row.append($("<td>").text(data.subjCode));
+                row.append($("<td>").text(formatTime(data.startTime))); // Use the provided time format
+                row.append($("<td>").text(formatTime(data.endTime)));   // Use the provided time format
+                row.append($("<td>").text(data.schedule));
+                row.append($("<td>").text(data.room));
+                // Append the units directly without checking for null
+                row.append($("<td>").text(data.units));
+
+
+                // Prepend the row to the table to add the new retrieved above the old retrieved data
+                table.prepend(row);
+
+                // Add the EDP code to the list to track duplicates
+                edpCodesList.push(data.edpCode);
+
+                // Add the EDP code to the list for enrollment
+                edpCodesForEnrollment.push(data.edpCode);
+
+                // Calculate and update the total units
+                updateTotalUnits();
+            }
+        }
+
+
+
+        // Function to store all EDP and Subject Codes from the table
+        function enrollData() {
+            var enroll = [];
+            $("#edptable tbody tr").each(function () {
+                var edpCode = $(this).find("td:eq(0)").text(); //Retrieve the EDP Code is in the first column
+                var subjCode = $(this).find("td:eq(1)").text(); //Retrieve the Subject Code is in the second column
+                enroll.push({ "edpCode": edpCode, "subjCode": subjCode });
+            });
+
+            // The data is stored in the array
+            return enroll;
+        }
+
+        //This function iterates each row in the table
+        // and finds the content of the first and second cell using jQuery selectors (td:eq(0) and td:eq(1))
+        // Which the edpcode and subjcode lies. Then it creates an object with properties edpCode and subjCode
+        // using the extracted values, and pushes this object into the enroll array to save if for future use.
+        function saveData() {
+            var enroll = [];
+            $("#edptable tbody tr").each(function () {
+                var edpCode = $(this).find("td:eq(0)").text();
+                var subjCode = $(this).find("td:eq(1)").text();
+                enroll.push({ "edpCode": edpCode, "subjCode": subjCode });
+            });
+
+            var studentId = $('#studid').val();
+
+            // Make an AJAX request, a POST request to the "/EnrollmentDetail/AddDetail"
+            // URL and sends the data as JSON.
+            $.ajax({
+                type: "POST",
+                url: "/EnrollmentDetails/AddDetail",
+                contentType: "application/json; charset=utf-8",
+                data: JSON.stringify({ studentId: studentId, enrollmentData: enroll }),
+                success: function (response, textStatus, xhr) {
+                    if (xhr.status === 200) {
+                        console.log('Data successfully sent to the server');
+                    } else if (xhr.status === 409) {
+                        console.log('Conflict: Duplicate entry or other conflict');
+                    } else {
+                        console.log('Unexpected response from the server');
+                    }
+                },
+                error: function (error) {
+                    console.error("Error sending data to the server", error);
+                }
+            });
+        }
+
+        // Event handler for the Enroll button
+        $("#enbtn").on("click", function () {
+
+            // Check if the required input fields are filled
+            var isInputValid = validateInputFields();
+
+            if (!isInputValid) {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Incomplete Fields',
+                    text: 'Please fill in all required fields before enrolling.'
+                });
+                return;
+            }
+
+            //call the saveData function to perform the retrieval of edpcode and subjcode
+            saveData();
+
+            // Check if there are EDP codes for enrollment
+            if (edpCodesForEnrollment.length > 0) {
+                // Make an AJAX request to check for duplicate ID before incrementing class size
+                $.ajax({
+                    url: "/Enrollment/CheckDuplicateId",
+                    type: "POST",
+                    data: { studentId: $('#studid').val() },
+                    success: function (duplicateResult) {
+                        if (duplicateResult.success) {
+                            // If no duplicate ID, proceed to increment class size
+                            $.each(edpCodesForEnrollment, function (index, edpCode) {
+                                $.ajax({
+                                    url: "/Enrollment/UpClassSize",
+                                    type: "POST",
+                                    data: { edpCode: edpCode },
+                                    success: function (enrollmentResult) {
+                                        if (enrollmentResult.success) {
+                                            // Utilize console.log for checking if it successfully saves
+                                            console.log("Class size Updated ", enrollmentResult.classSize);
+                                        } else {
+                                            // Utilize console.log for checking if it fails
+                                            console.log("Class Size doesn't update.");
+                                        }
+                                    },
+                                    error: function () {
+                                        // Utilize console.log for checking if updating class size doesnt save as intended
+                                        console.log("Error occurred during updating.");
+                                    }
+                                });
+                            });
+
+                            // Clear the list of EDP codes for enrollment
+                            // edpCodesForEnrollment = [];
+                        } else {
+                            // If duplicate ID, show an error message
+                            console.log("Duplicate ID found. Cannot proceed with class size update.");
+                        }
+                    },
+                    error: function () {
+                        console.log("Error occurred during duplicate ID check.");
+                    }
+                });
+            }
+
+
+        });
+
+        // Check if the required input fields are filled
+        function validateInputFields() {
+            // it retrieves the values of two input fields
+            //And, checks if both values are null
+            //Utilizing && operator, and returns the result of the check
+            var studentCodeValue = $("input[name='ENRHFSTUDENCODER']").val();
+            var dateEnrollValue = $("input[name='ENRHFSTUDDATEENROLL']").val();
+
+            return studentCodeValue && dateEnrollValue;
+        }
+
+        // Function to format time as "hh:mm A.M./P.M."
+        function formatTime(dateTime) {
+            var time = new Date(dateTime);
+            var hours = time.getHours();
+            var minutes = time.getMinutes();
+            var ampm = hours >= 12 ? "P.M." : "A.M.";
+            hours = hours % 12;
+            hours = hours ? hours : 12; // Handle midnight (0:00)
+            minutes = minutes < 10 ? "0" + minutes : minutes;
+            return hours + ":" + minutes + " " + ampm;
+        }
+        // Function to check for time and day conflicts
+        function isScheduleConflict(newData) {
+            var rows = table.find("tr");
+
+            // Format the start and end times of the new data
+            var newStartTime = formatTime(newData.startTime);
+            var newEndTime = formatTime(newData.endTime);
+            var newDays = newData.schedule;
+
+            for (var i = 0; i < rows.length; i++) {
+                var row = $(rows[i]);
+                var existingData = {
+                    startTime: row.find("td:nth-child(3)").text(), // Get formatted time
+                    endTime: row.find("td:nth-child(4)").text(),   // Get formatted time
+                    schedule: row.find("td:nth-child(5)").text(), //days
+                };
+
+                // Check if the days overlap
+                if (daysOverlap(newDays, existingData.schedule)) {
+                    // Check if the times overlap
+                    if ((newStartTime >= existingData.startTime && newStartTime < existingData.endTime) ||
+                        (newEndTime > existingData.startTime && newEndTime <= existingData.endTime) ||
+                        (existingData.startTime >= newStartTime && existingData.startTime < newEndTime) ||
+                        (existingData.endTime > newStartTime && existingData.endTime <= newEndTime)) {
+                        return true; // Conflict found
+                    }
+                }
+            }
+
+            return false; // No conflict
+        }
+
+        // Function to check if days overlap (e.g., TTH and TH)
+        function daysOverlap(days1, days2) {
+            // Logic to determine if the days have an overlap
+            return days1.includes(days2) || days2.includes(days1);
+        }
+
+
+        // Function to calculate and update total units
+        function updateTotalUnits() {
+            var rows = table.find("tr");
+            var totalUnits = 0;
+
+            for (var i = 0; i < rows.length; i++) {
+                var row = $(rows[i]);
+                var units = parseInt(row.find("td:nth-child(7)").text());
+
+                if (!isNaN(units)) {
+                    totalUnits += units;
+                }
+            }
+
+            // Update the input field with the totalUnitts
+            $("#entotalunits").val(totalUnits);
+
+            // Update the hidden input field and send the totalUnits to the server
+            $("#hiddenTotalUnits").val(totalUnits);
+        }
+
+
+    });
+
+
+    // Function to clear all data
+    function clearAllData() {
+        // Clear arrays
+        edpCodesList = [];
+        edpCodesForEnrollment = [];
+
+        // Clear input fields
+        $("#studid").val('');
+        $("#studname").val('');
+        $("#studyear").val('');
+        $("#studcourse").val('');
+        $("#enedpcode").val('');
+        $("#encoder").val('');
+        $("#date").val('');
+        $("#entotalunits").val('');
+        $("#edptable tbody").empty(); // Clear table rows
+
+        // Clear hidden fields or any other data you need to clear
+        $("#hiddenTotalUnits").val('');
+    }
+
+
+    // Event handler for the "cancelBtn"
+    $('#cancelBtn').click(function () {
+        clearAllData();
+        $('#cancelBtnClicked').val("true"); // Set the value to "true"
+        // Prevent the form from submitting
+        return false;
+    });
+
+</script>
+
+@if (TempData.ContainsKey("FieldError"))
+{
+    <script>
+        var fieldError = '@TempData["FieldError"]';
+        Swal.fire({
+            icon: 'error',
+            title: 'Field Validation Entry Error',
+            text: fieldError,
+        });
+    </script>
+
+}
+
+@if (TempData.ContainsKey("DuplicateError"))
+{
+    <script>
+        var duplicateError = '@TempData["DuplicateError"]';
+        Swal.fire({
+            icon: 'error',
+            title: 'Duplicate Error',
+            text: duplicateError,
+        });
+    </script>
+}
+
+@if (TempData.ContainsKey("SuccessMessage"))
+{
+    <script>
+        var successMessage = '@TempData["SuccessMessage"]';
+        Swal.fire({
+            icon: 'success',
+            title: 'Success',
+            text: successMessage,
+        });
+    </script>
+}
+
+@if (TempData.ContainsKey("LimitMessage"))
+{
+    <script>
+        var limitMessage = '@TempData["LimitMessage"]';
+        Swal.fire({
+            icon: 'success',
+            title: 'Success',
+            text: limitMessage,
+        });
+    </script>
+}

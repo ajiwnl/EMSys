@@ -1,0 +1,790 @@
+/*CSS Classes*/
+.bg {
+    background-image: url('https://drive.google.com/uc?export=download&id=1ZnFn6DMfgZ9FcW4S5RVQV8RGBbLDp0XN');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    padding-left: 3%;
+    transition: background-color 3s;
+}
+
+.darkenedbg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://drive.google.com/uc?export=download&id=1ZnFn6DMfgZ9FcW4S5RVQV8RGBbLDp0XN');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color 3s;
+    padding-left: 3%;
+}
+
+.format {
+    color: whitesmoke;
+}
+
+.bubbles-lg {
+    border-color: black;
+    font-size: 20px;
+}
+
+.bubbles-sm {
+    border-color: black;
+    font-size: 16px;
+}
+
+.circleObj {
+    width: 35%;
+    padding-top: 8%;
+    display: flex;
+    margin: auto;
+}
+
+.options {
+    width: 30%;
+    opacity: 0%;
+    pointer-events: none;
+}
+
+.hide-navbar {
+    display: none;
+}
+
+.hidden {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0%;
+    display: none;
+}
+
+.searchbox {
+    margin-right: 3%;
+    margin-top: 3%;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.centerform {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border: 1px solid rgba(0, 0, 0, 1);
+    padding: 5% 3% 4%;
+    transition: 0.5s, color 0.5s, letter-spacing 0.5s, box-shadow 0.5s;
+    width: 95%;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.img-s {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.margincard {
+    margin-left: -5%;
+    margin-top: 2.3%;
+}
+
+.enrollmargin {
+    margin-left: 1%;
+    margin-top: 5%;
+}
+
+.paddingcard {
+    padding-bottom: 22.7%;
+}
+
+.centercard {
+    margin-top: 3%;
+    margin-left: 50%;
+}
+
+.radiob {
+    color: whitesmoke;
+}
+
+.viewform {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border: 1px solid rgba(0, 0, 0, 1);
+    padding: 20px;
+    margin-right: 1%;
+}
+
+    .viewform:hover {
+        background: rgba(0, 0, 0, 0.5);
+        box-shadow: 0 0 35px var(--clr);
+        transition: 0.5s, color 0.5s, box-shadow 0.5s;
+    }
+
+.centerform:hover {
+    background: rgba(0, 0, 0, 0.5);
+    color: black;
+    letter-spacing: 0.10em;
+    box-shadow: 0 0 35px var(--clr);
+}
+
+.centerform i {
+    inset: 0;
+}
+
+    .centerform i::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 80%;
+        width: 10px;
+        height: 4px;
+        background: rgb(85, 83, 83);
+        transform: translateX(-50%) skewX(325deg);
+        transition: 0.5s;
+    }
+
+.centerform:hover i::before {
+    width: 20px;
+    left: 20%;
+}
+
+.form-group {
+    margin-right: 14%;
+    margin-bottom: 2%;
+    align-items: inherit;
+    text-align: right;
+}
+
+.form-group2 input[type="text"] {
+    max-width: 40%;
+}
+
+.hidden {
+    color: transparent;
+    background-color: transparent;
+    user-select: none;
+    pointer-events: none;
+}
+
+form input:focus,
+form textarea:focus,
+form select:focus {
+    border: 2px solid #bd2121;
+    box-shadow: 0 0 30px #bd2121;
+}
+
+.formatslabel {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.0em;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    margin-bottom: 2%;
+}
+
+.formatstext {
+    color: black;
+    justify-content: center;
+    text-align: center;
+    display: inline-block;
+    margin-left: 10%;
+}
+
+.form-group input[type="text"] {
+    max-width: 100%;
+}
+
+.headerformats {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    margin-top: -30px;
+    font-size: 1.3em;
+    margin-left: 32%;
+    margin-bottom: 4%;
+}
+
+form input {
+    flex: 2;
+}
+
+.btnback {
+    position: absolute;
+    bottom: 3%;
+    left: 5%;
+    color: white;
+    background: white;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding: 0.7% 1.5%;
+    transition: 0.5s;
+}
+
+    .btnback:hover {
+        background: var(--clr);
+        color: var(--clr);
+        letter-spacing: 0.20em;
+        box-shadow: 0 0 35px var(--clr);
+    }
+
+    .btnback::before {
+        content: '';
+        position: absolute;
+        inset: 2px;
+        background: rgb(85, 83, 83);
+    }
+
+    .btnback span {
+        position: relative;
+        z-index: 1;
+    }
+
+    .btnback i {
+        position: absolute;
+        inset: 0;
+    }
+
+        .btnback i::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 80%;
+            width: 10px;
+            height: 4px;
+            background: rgb(85, 83, 83);
+            transform: translateX(-50%) skewX(325deg);
+            transition: 0.5s;
+        }
+
+        .btnback i::before {
+            width: 20px;
+            left: 20%;
+        }
+
+        .btnback i::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 20%;
+            width: 10px;
+            height: 4px;
+            background: rgb(85, 83, 83);
+            transform: translateX(-50%) skewX(325deg);
+            transition: 0.5s;
+        }
+
+    .btnback:hover i::after {
+        width: 20px;
+        left: 80%;
+    }
+
+.btnback2 {
+    position: absolute;
+    bottom: 3%;
+    right: 10%;
+    color: white;
+    background: white;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding: 0.7% 1.5%;
+    transition: 0.5s;
+}
+
+    .btnback2:hover {
+        background: var(--clr);
+        color: var(--clr);
+        letter-spacing: 0.15em;
+        box-shadow: 0 0 35px var(--clr);
+    }
+
+    .btnback2::before {
+        content: '';
+        position: absolute;
+        inset: 2px;
+        background: rgb(85, 83, 83);
+    }
+
+    .btnback2 span {
+        position: relative;
+        z-index: 1;
+    }
+
+    .btnback2 i {
+        position: absolute;
+        inset: 0;
+    }
+
+        .btnback2 i::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 80%;
+            width: 10px;
+            height: 4px;
+            background: rgb(85, 83, 83);
+            transform: translateX(-50%) skewX(325deg);
+            transition: 0.5s;
+        }
+
+        .btnback2 i::before {
+            width: 20px;
+            left: 20%;
+        }
+
+        .btnback2 i::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 20%;
+            width: 10px;
+            height: 4px;
+            background: rgb(85, 83, 83);
+            transform: translateX(-50%) skewX(325deg);
+            transition: 0.5s;
+        }
+
+    .btnback2:hover i::after {
+        width: 20px;
+        left: 80%;
+    }
+
+.btncancel {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: white;
+    background: white;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding: 0.7% 1.5%;
+    transition: 0.5s;
+}
+    .btncancel:hover {
+        background: var(--clr);
+        color: var(--clr);
+        letter-spacing: 0.15em;
+        box-shadow: 0 0 35px var(--clr);
+    }
+
+    .btncancel::before {
+        content: '';
+        position: absolute;
+        inset: 2px;
+        background: rgb(85, 83, 83);
+    }
+
+    .btncancel span {
+        position: relative;
+        z-index: 1;
+    }
+
+    .btncancel i {
+        position: absolute;
+        inset: 0;
+    }
+
+        .btncancel i::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 80%;
+            width: 10px;
+            height: 4px;
+            background: rgb(85, 83, 83);
+            transform: translateX(-50%) skewX(325deg);
+            transition: 0.5s;
+        }
+
+        .btncancel i::before {
+            width: 20px;
+            left: 20%;
+        }
+
+        .btncancel i::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 20%;
+            width: 10px;
+            height: 4px;
+            background: rgb(85, 83, 83);
+            transform: translateX(-50%) skewX(325deg);
+            transition: 0.5s;
+        }
+
+    .btncancel:hover i::after {
+        width: 20px;
+        left: 80%;
+    }
+
+.buttonCenter {
+    position: relative;
+    margin-left: 38%;
+    margin-top: 3%;
+}
+
+.buttonRows {
+    position: relative;
+    margin-left: 22%;
+    margin-top: 3%;
+}
+
+.buttonRight {
+    margin-left: 85%;
+    margin-bottom: 2.4%;
+}
+
+.buttonRightStud {
+    margin-left: 85%;
+    margin-bottom: 2.4%;
+}
+
+/*Responsiveness*/
+@media (min-width: 475px) {
+    .container {
+        max-width: 475px;
+        max-height: 200px;
+    }
+
+    .centerform {
+        margin: 0% 0% 0% 0%;
+        font-size: 1.0em;
+    }
+}
+
+@media only screen and (min-width: 640px) {
+    .container {
+        max-width: 640px;
+        max-height: 475px;
+        font-size: 1.1em;
+    }
+
+    .centerform {
+        margin: 0% 0% 0% 0%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        max-height: 640px;
+        font-size: 1.2em;
+    }
+
+    .centerform {
+        margin: 2% 5% 0% 5%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .container {
+        max-width: 1024px;
+        max-height: 768px;
+    }
+
+    .centerform {
+        margin: 4% 10% 10% 10%;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+        max-height: 1024px;
+    }
+
+    .centerform {
+        margin: 6% 15% 10% 15%;
+    }
+}
+
+@media only screen and (min-width: 1536px) {
+    .container {
+        max-width: 1536px;
+        max-height: 1024px;
+    }
+
+    .centerform {
+        margin: 8% 20% 10% 20%;
+    }
+}
+
+/*Utility Animation Classes*/
+.beatanimation {
+    width: 35%;
+    padding-top: 8%;
+    animation: beat .50s infinite alternate;
+}
+
+.srightanimation {
+    width: 35%;
+    padding-top: 8%;
+    animation: slideInRight 0.2s;
+    transform-origin: center;
+    animation-fill-mode: both;
+}
+
+.sleftanimation {
+    width: 35%;
+    padding-top: 8%;
+    animation: slideInLeft 1s;
+    transform-origin: center;
+    animation-fill-mode: both;
+}
+
+.regAnimationIn {
+    width: 30%;
+    animation: regAnimationIn 0.75s;
+    transform-origin: center;
+    animation-fill-mode: forwards;
+}
+
+.regAnimationOut {
+    width: 30%;
+    animation: regAnimationOut 0.75s;
+    transform-origin: center;
+    animation-fill-mode: forwards;
+}
+
+.subAnimationIn {
+    width: 30%;
+    animation: subAnimationIn 0.75s;
+    transform-origin: center;
+    animation-fill-mode: forwards;
+}
+
+.subAnimationOut {
+    width: 30%;
+    animation: subAnimationOut 0.75s;
+    transform-origin: center;
+    animation-fill-mode: forwards;
+}
+
+.schedAnimationIn {
+    width: 30%;
+    animation: schedAnimationIn 0.75s;
+    transform-origin: center;
+    animation-fill-mode: forwards;
+}
+
+.schedAnimationOut {
+    width: 30%;
+    animation: schedAnimationOut 0.75s;
+    transform-origin: center;
+    animation-fill-mode: forwards;
+}
+
+.enrollAnimationIn {
+    width: 30%;
+    animation: enrollAnimationIn 0.75s;
+    transform-origin: center;
+    animation-fill-mode: forwards;
+}
+
+.enrollAnimationOut {
+    width: 30%;
+    animation: enrollAnimationOut 0.75s;
+    transform-origin: center;
+    animation-fill-mode: forwards;
+}
+
+/*Animation or Transitions*/
+@keyframes beat {
+    to {
+        transform: scale(1.05);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(50%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateX(92.8%);
+    }
+}
+
+@keyframes regAnimationIn {
+    0% {
+        opacity: 0;
+    }
+
+    from {
+        transform: translate(0%, -530%);
+    }
+
+    to {
+        transform: translate(110%, -530%);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes regAnimationOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+
+    from {
+        transform: translate(110%, -530%);
+    }
+
+    to {
+        transform: translate(80%, -530%);
+    }
+}
+
+@keyframes subAnimationIn {
+    0% {
+        opacity: 0;
+    }
+
+    from {
+        transform: translate(0%, -450%);
+    }
+
+    to {
+        transform: translate(126%, -450%);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes subAnimationOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+
+    from {
+        transform: translate(126%, -450%);
+    }
+
+    to {
+        transform: translate(80%, -450%);
+    }
+}
+
+@keyframes schedAnimationIn {
+    0% {
+        opacity: 0;
+    }
+
+    from {
+        transform: translate(0%, -445%);
+    }
+
+    to {
+        transform: translate(126%, -445%);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes schedAnimationOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+
+    from {
+        transform: translate(126%, -445%);
+    }
+
+    to {
+        transform: translate(80%, -445%);
+    }
+}
+
+@keyframes enrollAnimationIn {
+    0% {
+        opacity: 0;
+    }
+
+    from {
+        transform: translate(0%, -515%);
+    }
+
+    to {
+        transform: translate(110%, -515%);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes enrollAnimationOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+
+    from {
+        transform: translate(110%, -515%);
+    }
+
+    to {
+        transform: translate(80%, -515%);
+    }
+}

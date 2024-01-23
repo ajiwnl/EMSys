@@ -1,0 +1,150 @@
+﻿@model SubjectSched
+<style>
+	.card-wrapper {
+		max-height: 530px;
+		overflow-y: auto;
+	}
+
+	form {
+		width: 100%;
+	}
+</style>
+
+<div class="m-5">
+	<div class="card-wrapper viewform" style="--clr:#000FFE">
+		<form method="post" asp-action="Edit" asp-controller="SubjectSched">
+			<div class="p-3 m-4">
+				<div class="container mb-3">
+					<div class="row">
+						<div class="col">
+							<h2 class="text-center text-light">Edit Schedule Information</h2>
+						</div>
+					</div>
+				</div>
+				<div class="container mb-3">
+					<div class="row">
+						<div class="col">
+							<div class="form-floating" hidden>
+								<input asp-for="SSFSTARTTIME" type="text" class="form-control" />
+								<label asp-for="SSFSTARTTIME"></label>
+							</div>
+						</div>
+						<div class="col">
+							<div class="form-floating" hidden>
+								<input asp-for="SSFENDTIME" type="text" class="form-control" />
+								<label asp-for="SSFENDTIME"></label>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container mb-3">
+					<div class="row">
+						<div class="col">
+							<div class="form-floating" hidden>
+								<input asp-for="SSFDAYS" type="text" class="form-control" />
+								<label asp-for="SSFDAYS"></label>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container mb-3">
+					<div class="row">
+						<div class="col">
+							<div class="form-floating"hidden>
+								<input asp-for="SSFROOM" type="text" class="form-control" />
+								<label asp-for="SSFROOM"></label>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container mb-3">
+					<div class="row">
+						<div class="col">
+							<div class="form-floating">
+								<input asp-for="SSFEDPCODE" type="text" class="form-control" readonly />
+								<label asp-for="SSFEDPCODE"></label>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container mb-3">
+					<div class="row">
+						<div class="col">
+							<div class="form-floating">
+								<input asp-for="SSFSUBJCODE" type="text" class="form-control" readonly />
+								<label asp-for="SSFSUBJCODE"></label>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container mb-3">
+					<div class="row">
+						<div class="col">
+							<div class="form-floating">
+								<input asp-for="SSFSTATUS" type="text" class="form-control" />
+								<label asp-for="SSFSTATUS"></label>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container mb-3">
+					<div class="row">
+						<div class="col">
+							<div class="form-floating">
+								<input asp-for="SSFXM" type="text" class="form-control" />
+								<label asp-for="SSFXM"></label>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container mb-3">
+					<div class="row">
+						<div class="col">
+							<div class="form-floating">
+								<input asp-for="SSFSECTION" type="text" class="form-control" />
+								<label asp-for="SSFSECTION"></label>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container mb-3">
+					<div class="row">
+						<div class="col">
+							<div class="form-floating">
+								<input asp-for="SSFSCHOOLYEAR" type="text" class="form-control" />
+								<label asp-for="SSFSCHOOLYEAR"></label>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<div class="mb-3 mt-3 text-center">
+								<button type="submit" class="btn-lg btn-success" style="width: 200px">Update</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="mb-3 form-floating" hidden>
+					<input asp-for="SSFMAXSIZE" class="form-control" />
+					<label asp-for="SSFMAXSIZE"></label>
+				</div>
+				<div class="mb-3 form-floating" hidden>
+					<input asp-for="SSFCLASSSIZE" class="form-control" />
+					<label asp-for="SSFCLASSSIZE"></label>
+				</div>
+				<div class="mb-3 form-floating" hidden>
+					<input asp-for="SSFCOURSECODE" class="form-control" />
+					<label asp-for="SSFCOURSECODE"></label>
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div>
+	<a asp-controller="SubjectSched" asp-action="Index" class="btnback" style="--clr:#000FFE">
+		<span>Back</span><i></i>
+	</a>
+</div>

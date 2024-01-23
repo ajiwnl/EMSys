@@ -1,0 +1,102 @@
+﻿@model Enrollment
+<style>
+	.card-wrapper {
+		max-height: 530px;
+		overflow-y: auto;
+	}
+
+	form {
+		width: 100%;
+	}
+</style>
+
+<div class="m-5">
+	<div class="card-wrapper viewform" style="--clr:#FAFA04">
+		<form method="post" asp-action="Edit" asp-controller="Enrollment">
+			<div class="p-3 m-4">
+				<div class="container mb-3">
+					<div class="row">
+						<div class="col">
+							<h2 class="text-center text-light">Edit Enrollment Information</h2>
+						</div>
+					</div>
+				</div>
+				<div class="container mb-3">
+					<div class="row">
+						<div class="col">
+							<div class="form-floating">
+								<input asp-for="ENRHFSTUDID" type="text" class="form-control" readonly/>
+								<label asp-for="ENRHFSTUDID">Encoder</label>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container mb-3">
+					<div class="row">
+						<div class="col">
+							<div class="form-floating">
+								<input asp-for="ENRHFSTUDENCODER" type="text" class="form-control" />
+								<label asp-for="ENRHFSTUDENCODER">Encoder</label>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container mb-3">
+					<div class="row">
+						<div class="col">
+							<div class="form-floating">
+								<input asp-for="ENRHFSTUDTOTALUNITS" type="text" class="form-control" readonly />
+								<label asp-for="ENRHFSTUDTOTALUNITS">Total Units</label>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container mb-3">
+					<div class="row">
+						<div class="col">
+							<div class="form-floating">
+								<input asp-for="ENRHFSTUDDATEENROLL" type="text" class="form-control" readonly/>
+								<label asp-for="ENRHFSTUDDATEENROLL">Date Enrolled</label>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container mb-3">
+					<div class="row">
+						<div class="col">
+							<div class="form-floating">
+								<input asp-for="ENRHFSTUDSCHLYR" type="text" class="form-control" />
+								<label asp-for="ENRHFSTUDSCHLYR">School Year</label>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container mb-3">
+					<div class="row">
+						<div class="col">
+							<div class="form-floating">
+								<input asp-for="ENRHFSTUDSTATUS" type="text" class="form-control" />
+								<label asp-for="ENRHFSTUDSTATUS">Status</label>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<div class="mb-3 mt-3 text-center">
+								<button type="submit" class="btn-lg btn-success" style="width: 200px">Update</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div>
+	<a asp-controller="Enrollment" asp-action="Index" class="btnback" style="--clr:#FAFA04">
+		<span>Back</span><i></i>
+	</a>
+</div>
