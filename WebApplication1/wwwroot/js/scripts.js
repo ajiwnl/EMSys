@@ -135,14 +135,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
 //Audio Queue
 function audioQueue(){
-    var audio = new Audio("https://drive.google.com/uc?export=download&id=1p-NcuxbEZXX_IR4Kw-fYtg32csLSn7Ww");
+    var audio = new Audio("https://www.dropbox.com/scl/fi/4ds9forx7tp714iycestz/menuhit.wav?rlkey=wnvu6x1yuzlbwwxq8ozlyjk1w&dl=1");
     audio.volume = 0.2;
     audio.play();
     audio.currentTime = 0;
 }
 
 function audioFourB() {
-    var audio = new Audio("https://drive.google.com/uc?export=download&id=1p-NcuxbEZXX_IR4Kw-fYtg32csLSn7Ww");
+    var audio = new Audio("https://www.dropbox.com/scl/fi/ly0vfrutt6tpfq5bxepsk/menuclick.wav?rlkey=5zcdamulafp7rx5cm1pmvvn74&dl=1");
     audio.volume = 0.2;
     audio.play();
     audio.currentTime = 0;
@@ -212,13 +212,13 @@ function selectedIcon(selection) {
         iconddbtn.textContent = selection;
         iconselect.value = selection;
         if (selection == "1") {
-            profile.src = "https://drive.google.com/uc?export=download&id=14HinNQuk2LdHo3jWXNZGxJ3iOMLMem13";
+            profile.src = "https://i.ibb.co/WgCZNCv/cool.jpg";
         }
         if (selection == "2") {
-            profile.src = "https://drive.google.com/uc?export=download&id=1My-KhHFZsfHNRUSYCSjCBY1jxBNIrqhYg";
+            profile.src = "https://i.ibb.co/f4bNN1Y/tired.jpg";
         }
         if (selection == "3") {
-            profile.src = "https://drive.google.com/uc?export=download&id=1yb5XoVry7NGAaHdji9ze7rPaUEw08l7Y";
+            profile.src = "https://i.ibb.co/fHPC4GX/smug.jpg";
         }
     }
 }

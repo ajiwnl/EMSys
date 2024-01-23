@@ -3,13 +3,13 @@
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 <header id="navhome" class="hide-navbar">
-    <img class="img-s" src="https://drive.google.com/uc?export=download&id=1T9K44e5r7HejFb2pkaXNLEwsa3TYFNK5" id="icon">
+    <img class="img-s" src="https://i.ibb.co/JzzWRrQ/transparentbg.png" id="icon">
     <div class="logo">
         @if (ViewBag.IsLoggedIn == true)
         {
             <span id="username"></span>
         }
-        else if(ViewBag.IsLoggedIn == false)
+        else if (ViewBag.IsLoggedIn == false)
         {
             <span id="icon">NOT LOGGED IN</span>
         }
@@ -27,7 +27,7 @@
                     <a asp-controller="Home" asp-action="Logout">Logout</a>
                 </li>
             }
-            else if(ViewBag.IsLoggedIn == false)
+            else if (ViewBag.IsLoggedIn == false)
             {
                 <li>
                     <a asp-controller="Credentials" asp-action="Index">Login</a>
@@ -42,56 +42,57 @@
 
 <div class="mt-2 mb-5">
     <div>
-        <img src="https://drive.google.com/uc?export=download&id=1RQD8MMSwlBJG_BqclfVemFOb18nreR-c" class="circleObj beatanimation" id="mainform" onclick="formClick()">
+        <img src="https://i.ibb.co/DVjcLsK/form-logo.png" class="circleObj beatanimation" id="mainform" onclick="formClick()">
     </div>
-    @if(ViewBag.IsLoggedIn == true)
+    @if (ViewBag.IsLoggedIn == true)
     {
         <div>
             <a asp-controller="Student" asp-action="Add">
-                <img src="https://drive.google.com/uc?export=download&id=1WVhyVbABwoMvSYtnZYTY1jzcJyjLik3w" class="options" id="register"
+                <img src="https://i.ibb.co/n05CSds/Register.png" class="options" id="register"
                  onclick="optionSelected('darkenedbg')">
             </a>
         </div>
         <div>
             <a asp-controller="Subject" asp-action="Add">
-                <img src="https://drive.google.com/uc?export=download&id=1iZpzDxvbTIkO53IqsELAm89hv-ynkca5" class="options" id="subjects"
+                <img src="https://i.ibb.co/WF2zwJX/Subject.png" class="options" id="subjects"
                  onclick="optionSelected('darkenedbg')">
             </a>
         </div>
         <div>
             <a asp-controller="SubjectSched" asp-action="Add">
-                <img src="https://drive.google.com/uc?export=download&id=1cVBRsh0G_lD2nT8LHogWI2L59bYN8BN8" class="options" id="sched"
+                <img src="https://i.ibb.co/y8tqs5Q/Subject-Sched.png" class="options" id="sched"
                  onclick="optionSelected('darkenedbg')">
             </a>
         </div>
         <div>
             <a asp-controller="Enrollment" asp-action="Add">
-                <img src="https://drive.google.com/uc?export=download&id=184KC3xvwRnN4ejDIEYXOBotE7KunnvDq" class="options" id="enrollment"
+                <img src="https://i.ibb.co/tQ00Tnw/Enrollment.png" class="options" id="enrollment"
                  onclick="optionSelected('darkenedbg')">
             </a>
         </div>
     }
-    else if (ViewBag.IsLoggedIn == false) {
-    <div>
-        <a>
-                <img src="https://drive.google.com/uc?export=download&id=1WVhyVbABwoMvSYtnZYTY1jzcJyjLik3w" class="options" id="register">
-        </a>
-    </div>
-    <div>
-        <a>
-                <img src="https://drive.google.com/uc?export=download&id=1iZpzDxvbTIkO53IqsELAm89hv-ynkca5" class="options" id="subjects">
-        </a>
-    </div>
-    <div>
-        <a>
-                <img src="https://drive.google.com/uc?export=download&id=1cVBRsh0G_lD2nT8LHogWI2L59bYN8BN8" class="options" id="sched">
-        </a>
-    </div>
-    <div>
-        <a>
-                <img src="https://drive.google.com/uc?export=download&id=184KC3xvwRnN4ejDIEYXOBotE7KunnvDq" class="options" id="enrollment">
-        </a>
-    </div>
+    else if (ViewBag.IsLoggedIn == false)
+    {
+        <div>
+            <a>
+                <img src="https://i.ibb.co/n05CSds/Register.png" class="options" id="register">
+            </a>
+        </div>
+        <div>
+            <a>
+                <img src="https://i.ibb.co/WF2zwJX/Subject.png" class="options" id="subjects">
+            </a>
+        </div>
+        <div>
+            <a>
+                <img src="https://i.ibb.co/y8tqs5Q/Subject-Sched.png" class="options" id="sched">
+            </a>
+        </div>
+        <div>
+            <a>
+                <img src="https://i.ibb.co/tQ00Tnw/Enrollment.png" class="options" id="enrollment">
+            </a>
+        </div>
     }
 </div>
 
@@ -164,7 +165,6 @@
             opacity: 0%;
             pointer-events: none;
         }
-
     }
 </style>
 
@@ -176,18 +176,18 @@
     }
 
     var icon = "@ViewBag.Icon";
-    var username = "@ViewBag.UserName"; 
+    var username = "@ViewBag.UserName";
     if (icon == 0) {
-        document.getElementById("icon").src = "https://drive.google.com/uc?export=download&id=1RQD8MMSwlBJG_BqclfVemFOb18nreR-c";
+        document.getElementById("icon").src = "https://i.ibb.co/JzzWRrQ/transparentbg.png";
     }
     if (icon == 1) {
-        document.getElementById("icon").src = "https://drive.google.com/uc?export=download&id=14HinNQuk2LdHo3jWXNZGxJ3iOMLMem13";
+        document.getElementById("icon").src = "https://i.ibb.co/WgCZNCv/cool.jpg";
     }
     if (icon == 2) {
-        document.getElementById("icon").src = "https://drive.google.com/uc?export=download&id=1My-KhHFZsfHNRUSYCSjCBY1jxBNIrqhY";
+        document.getElementById("icon").src = "https://i.ibb.co/f4bNN1Y/tired.jpg";
     }
     if (icon == 3) {
-        document.getElementById("icon").src = "https://drive.google.com/uc?export=download&id=1yb5XoVry7NGAaHdji9ze7rPaUEw08l7Y";
+        document.getElementById("icon").src = "https://i.ibb.co/fHPC4GX/smug.jpg";
     }
     document.getElementById("username").innerText = username;
 </script>

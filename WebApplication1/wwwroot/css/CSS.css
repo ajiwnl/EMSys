@@ -1,6 +1,6 @@
 /*CSS Classes*/
 .bg {
-    background-image: url('https://drive.google.com/uc?export=download&id=1ZnFn6DMfgZ9FcW4S5RVQV8RGBbLDp0XN');
+    background-image: url('https://i.ibb.co/C00XYhs/bg.gif');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -10,7 +10,7 @@
 }
 
 .darkenedbg {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://drive.google.com/uc?export=download&id=1ZnFn6DMfgZ9FcW4S5RVQV8RGBbLDp0XN');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://i.ibb.co/C00XYhs/bg.gif');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
