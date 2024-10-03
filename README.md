@@ -1,2 +1,6 @@
-# CRUD-Enrollment-System
-C# MVC .net Framework for CRUD (Create, Read, Update, and Delete) Enrollment System for ELDNET Subject.
+# AEnrollment-System
+C# MVC ASP .net Framework Enrollment System for ELDNET Subject.
+
+## Authors
+- [@ajiwnl](https://www.github.com/ajiwnl)
+- [@soliken1](https://www.github.com/soliken1)
